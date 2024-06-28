@@ -1,21 +1,20 @@
-# PRODIGY_CS_02
-Pixel Manipulation for Image Encryption Tool:- 
- This project is a simple image encryption tool that utilizes pixel manipulation techniques to encrypt and decrypt images. Users can perform operations such as swapping pixel values or applying basic mathematical operations to each pixel to achieve encryption.
+# Pixel Manipulation for Image Encryption
 
-Features:- 
-Encrypt images by manipulating pixel values,
-Decrypt images by reversing the pixel manipulation process,
-Supports common image formats such as PNG and JPEG,
-Easy-to-use command-line interface,
-Installation,
-Clone the repository or download the script to your local machine,
+This repository contains Python scripts for basic image encryption using pixel manipulation techniques. The encryption method used here is a simplified approach to demonstrate how pixel values can be altered to achieve a form of encryption.
 
-Install the required dependencies using pip:-
+## Introduction
 
-pip install pillow,
-Acknowledgments,
+Image encryption is the process of securing digital images to protect their confidentiality. Pixel manipulation is one of the techniques used in this process, where the pixel values of an image are modified based on a specific algorithm or key. In this repository, we explore a basic method for encrypting images by manipulating their pixel values.
 
+## How it Works
 
-This tool is inspired by basic principles of image processing and encryption techniques. Special thanks to the developers of the Pillow library for making image manipulation in Python straightforward and efficient.
+The encryption process involves the following steps:
 
+1. **Image Loading**: Load the input image (e.g., `.png`, `.jpg`) using Python libraries like PIL (Python Imaging Library) or OpenCV.
+   
+2. **Pixel Manipulation**: Iterate through each pixel in the image and apply a mathematical transformation. This transformation can involve shifting pixel values, applying bitwise operations, or other mathematical operations.
+
+3. **Encryption Key**: Use a predefined encryption key or algorithm parameters to determine how the pixel values should be modified. This key should be known to both the encryption and decryption processes.
+
+4. **Output Encrypted Image**: Save the manipulated pixel values as a new image file, representing the encrypted version of the original image.
 
